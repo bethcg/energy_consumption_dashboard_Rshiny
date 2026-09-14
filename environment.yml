@@ -1,0 +1,12 @@
+# Code-based environment for the RShiny app.
+# Renku builds this with conda; conda-forge provides R and the Shiny stack.
+name: rshiny-energy
+channels:
+  - conda-forge
+dependencies:
+  - r-base=4.3
+  - r-shiny
+  - r-readxl
+  - r-dplyr
+  - r-lubridate
+  - r-plotly
